@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Sedot WC Profesional</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            font-size: 42px;
+            margin: 0;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .section-title h2 {
+            font-size: 32px;
+            color: #1e3c72;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .section-title p {
+            color: #666;
+            font-size: 18px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .service-item {
+            flex: 1 1 300px;
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 12px;
+            transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .service-item:hover {
+            background-color: #e0f7ff;
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+        }
+        .service-item h3 {
+            margin-top: 0;
+            color: #1e3c72;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .service-item p {
+            font-size: 16px;
+            color: #555;
+        }
+        .advertisement-gallery {
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            margin-bottom: 40px;
+            background-color: #ffffff;
+        }
+        .slider {
+            width: 100%;
+            height: 400px;
+            position: relative;
+        }
+        .slides {
+            display: flex;
+            transition: transform 0.6s ease-in-out;
+        }
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+        .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+        .testimonials {
+            background-color: #1e3c72;
+            color: white;
+            padding: 40px 20px;
+            border-radius: 12px;
+            margin-top: 40px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .testimonials .section-title h2, 
+        .testimonials .section-title p {
+            color: white;
+        }
+        .testimonial-item {
+            background-color: #2a5298;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            transition: background-color 0.3s;
+        }
+        .testimonial-item:hover {
+            background-color: #1e3c72;
+        }
+        .testimonial-item h3 {
+            color: #ffef00;
+            margin-top: 0;
+        }
+        .testimonial-item p {
+            margin: 10px 0 0 0;
+            color: #ddd;
+        }
+        .contact-info {
+            margin-top: 30px;
+            background-color: #1e3c72;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            animation: pulse 2s infinite;
+        }
+        .contact-info h2 {
+            margin: 0 0 10px 0;
+        }
+        .contact-info p {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+        .contact-info a {
+            color: #ffef00;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 20px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            position: relative;
+            box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sinar Jaya Limbah</h1>
+    <h1>Jasa Sedot WC Profesional dan Terpercaya</h1>
+    <p>Solusi Cepat, Aman, dan Murah untuk Masalah WC Anda</p>
+</header>
+
+<div class="container">
+    <div class="advertisement-gallery">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="images/ad1.jpg" alt="Advertisement 1">
+                </div>
+                <div class="slide">
+                    <img src="images/ad1.jpg" alt="Advertisement 2">
+                </div>
+                <div class="slide">
+                    <img src="images/ad1.jpg" alt="Advertisement 3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-title">
+        <h2>Layanan Kami</h2>
+        <p>Kami menyediakan berbagai layanan untuk memenuhi kebutuhan Anda dengan harga terjangkau dan hasil yang memuaskan.</p>
+    </div>
+
+    <div class="services">
+        <div class="service-item">
+            <h3>Sedot WC</h3>
+            <p>Kami menyediakan layanan sedot WC untuk rumah, kantor, dan tempat umum dengan peralatan modern dan tenaga ahli.</p>
+        </div>
+        <div class="service-item">
+            <h3>Perbaikan Saluran</h3>
+            <p>Layanan perbaikan saluran mampet yang efektif untuk segala jenis masalah saluran air di rumah atau tempat usaha Anda.</p>
+        </div>
+        <div class="service-item">
+            <h3>Pembersihan Septic Tank</h3>
+            <p>Kami juga menyediakan layanan pembersihan dan perawatan septic tank agar tetap bersih dan berfungsi dengan baik.</p>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <div class="section-title">
+            <h2>Apa Kata Pelanggan Kami</h2>
+            <p>Pelanggan kami puas dengan layanan yang kami berikan, berikut beberapa testimoni dari mereka.</p>
+        </div>
+
+        <div class="testimonial-item">
+            <h3>Budi Santoso</h3>
+            <p>"Layanan sedot WC yang sangat cepat dan memuaskan. Harga terjangkau dan pelayanan ramah. Sangat direkomendasikan!"</p>
+        </div>
+        <div class="testimonial-item">
+            <h3>Sri Wahyuni</h3>
+            <p>"WC di rumah kami mampet, tapi berkat jasa ini, masalah teratasi dengan cepat. Tidak perlu menunggu lama dan harganya juga bagus."</p>
+        </div>
+        <div class="testimonial-item">
+            <h3>Joko Widodo</h3>
+            <p>"Profesional, cepat tanggap, dan sangat efektif. Jasa sedot WC ini sangat bisa diandalkan. Terima kasih!"</p>
+        </div>
+    </div>
+
+    <div class="contact-info">
+        <h2>Hubungi Kami Sekarang</h2>
+        <p>Telepon: <strong>0895-1605-3286</strong></p>
+        <p>Melayani untuk daerah Se-Jabodetabek</strong></p>
+        <a href="https://wa.me/6289516053286" target="_blank">Klik ini untuk Menghubungi via WhatsApp</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Sinar Jaya Limbah. All Rights Reserved.</p>
+</footer>
+
+<script>
+    let slideIndex = 0;
+    const slides = document.querySelector('.slides');
+    const totalSlides = document.querySelectorAll('.slide').length;
+
+    function showSlides() {
+        slideIndex++;
+        if (slideIndex >= totalSlides) {
+            slideIndex = 0;
+        }
+        slides.style.transform = `translateX(-${slideIndex * 100}%)`;
+        setTimeout(showSlides, 3000); // Ganti slide setiap 3 detik
+    }
+
+    showSlides();
+</script>
+
+</body>
+</html>
